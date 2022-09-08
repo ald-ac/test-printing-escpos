@@ -93,7 +93,7 @@ function doPrinting() {
             .control(escpos.FeedControlSequences.CR)
             .feed(1)
             .font(escpos.FontFamily.A)
-            .size(0.5, 0.5)
+            .size(1, 1)
             .align(escpos.TextAlignment.RightJustification)
             .text("Plaza: "+"OCOTLAN")
             .control(escpos.FeedControlSequences.CR)
